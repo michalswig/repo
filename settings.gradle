@@ -1,3 +1,4 @@
 rootProject.name = 'HelloWorldJavaFX'
 include 'kodilla-spring'
+include 'kodilla-patterns'
 
