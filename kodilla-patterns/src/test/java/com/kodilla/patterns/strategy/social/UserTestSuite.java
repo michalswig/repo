@@ -1,11 +1,12 @@
 package com.kodilla.patterns.strategy.social;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class UserTestSuite {
     @Test
-    void testDefaultSharingStrategies(){
+    void testDefaultSharingStrategies() {
         //Given
         User user1 = new Millenials("JohnSmith");
         User user2 = new ZGeneration("AdamKill");
@@ -22,7 +23,7 @@ public class UserTestSuite {
     }
 
     @Test
-    void testIndividualSharingStrategy(){
+    void testIndividualSharingStrategy() {
         //Given
         User user1 = new Millenials("JohnSmith");
         //When

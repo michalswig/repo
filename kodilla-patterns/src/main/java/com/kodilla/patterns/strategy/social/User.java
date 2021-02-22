@@ -16,7 +16,7 @@ public class User {
         this.socialPublisher = socialPublisher;
     }
 
-    public String sharePost(){
+    public String sharePost() {
         return socialPublisher.share();
     }
 
@@ -26,7 +26,6 @@ public class User {
                 "username='" + username + '\'' +
                 '}';
     }
-
 
 
 }
