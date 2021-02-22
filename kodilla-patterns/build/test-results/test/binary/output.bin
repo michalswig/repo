@@ -1,3 +1,0 @@
-ÙLibrary{name='library1', books=[Book{title='edc', author='rfv', publicationDate=1234-12-12}, Book{title='qaz', author='wsx', publicationDate=2020-12-12}, Book{title='tgb', author='yhn', publicationDate=1456-12-23}]}
-ÞLibrary{name='Library Clone', books=[Book{title='edc', author='rfv', publicationDate=1234-12-12}, Book{title='qaz', author='wsx', publicationDate=2020-12-12}, Book{title='tgb', author='yhn', publicationDate=1456-12-23}]}
-âLibrary{name='Library DeepClone', books=[Book{title='tgb', author='yhn', publicationDate=1456-12-23}, Book{title='qaz', author='wsx', publicationDate=2020-12-12}, Book{title='edc', author='rfv', publicationDate=1234-12-12}]}

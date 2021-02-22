@@ -23,7 +23,7 @@ public class LibraryTestSuite {
         Library cloneLibrary = null;
         try {
             cloneLibrary = library.shallowCopy();
-            cloneLibrary.setName("Library Clone");
+            cloneLibrary.setName("Library shallowClone");
         } catch (CloneNotSupportedException e) {
             System.out.println(e);
         }
