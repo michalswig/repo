@@ -1,0 +1,13 @@
+select i.description as tasks_names, il.NAME
+from issues i join issueslists il on i.ISSUESLIST_ID = il.ID;
+
+select i.description as tasks_names, u.firstname, u.lastname
+from issues i join users u on i.ISSUESLIST_ID = u.ID;
+
+select  I.ID, I.SUMMARY, I.DESCRIPTION, U.FIRSTNAME, U.LASTNAME
+from ISSUES I
+join USERS U on U.ID = I.USER_ID_ASSIGNEDTO;
+
+select issues.USER_ID_ASSIGNEDTO, count(*) as tasks_quantity
+from issues
+group by issues.USER_ID_ASSIGNEDTO;
