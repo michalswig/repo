@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-01T11:06:27" hostname="PATI" time="0.012">
+  <properties/>
+  <testcase name="testGetBooks()" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.012"/>
+  <system-out><![CDATA[Library{name='library1', books=[Book{title='tgb', author='yhn', publicationDate=1456-12-23}, Book{title='edc', author='rfv', publicationDate=1234-12-12}, Book{title='qaz', author='wsx', publicationDate=2020-12-12}]}
+Library{name='Library shallowClone', books=[Book{title='tgb', author='yhn', publicationDate=1456-12-23}, Book{title='edc', author='rfv', publicationDate=1234-12-12}, Book{title='qaz', author='wsx', publicationDate=2020-12-12}]}
+Library{name='Library DeepClone', books=[Book{title='qaz', author='wsx', publicationDate=2020-12-12}, Book{title='tgb', author='yhn', publicationDate=1456-12-23}, Book{title='edc', author='rfv', publicationDate=1234-12-12}]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

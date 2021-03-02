@@ -23,7 +23,6 @@ public class Pizza {
             return this;
         }
 
-        //return this ponizej,  oraz return this - możemy kaskadowo łączyć wywołania setterów
         public PizzaBuilder ingredient(String ingredient){
             ingredients.add(ingredient);
             return this;
